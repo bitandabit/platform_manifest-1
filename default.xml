@@ -21,6 +21,10 @@
   <remote  name="phoenix"
            fetch="https://github.com/Phoenix-Rom"
            revision="mm6.0" />
+  
+    <remote  name="TheMuppets"
+           fetch="https://github.com/TheMuppets"
+           revision="cm-13.0" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="build" remote="phoenix" >
@@ -538,5 +542,16 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="TheMuppets" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="TheMuppets" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="TheMuppets" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="TheMuppets" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="TheMuppets" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="TheMuppets" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="TheMuppets"/>
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="TheMuppets" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="TheMuppets" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="TheMuppets" />
 
 </manifest>
