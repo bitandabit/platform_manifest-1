@@ -11,6 +11,8 @@ To get started with Phoenix-Rom, you'll need to get familiar with
 Please take note that we have two main line branches depending on
 which hardware base your phone is working.
 
+Sync
+----
 To initialize your local repository using the Phoenix-Rom trees, use this command:
 
 
@@ -21,3 +23,13 @@ To initialize your local repository using the Phoenix-Rom trees, use this comman
 Then sync up with this command:
 
 	repo sync -cfj4 --force-sync --force-broken
+
+
+
+BUILD
+-----
+Initialize:
+        source build/envsetup.sh
+        
+Compile:
+        phoenixify <device>
