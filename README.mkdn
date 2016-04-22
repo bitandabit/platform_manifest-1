@@ -29,7 +29,9 @@ Then sync up with this command:
 BUILD
 -----
 Initialize:
+
         source build/envsetup.sh
         
 Compile:
-        phoenixify <device>
+
+        phoenixify device_name
